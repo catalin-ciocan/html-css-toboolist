@@ -3,3 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  background-color: #f6f8fa;
+}
+
+header{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2rem;
+  background-color: white;
+
+}
+
+header .logo img{
+  padding: 5px;
+  vertical-align: middle;
+
+}
+
+header .logo span{
+  vertical-align: middle;
+
+
+}
