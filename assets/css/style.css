@@ -67,6 +67,72 @@ ul li h3{
 
 }
 
+.to-do-bottom ul li{
+  line-height: 30px;
+  margin: 11px;
+}
+
+.to-do-inner-list li::before{
+  border-radius: 50%;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  text-align: center;
+  margin-right: 10px;
+
+}
+
+.to-do-inner-list li.checked::before{
+ content:"\2713" ;
+ color: green;
+ border: 1px solid green;
+
+}
+
+.to-do-inner-list li.crossed::before{
+  content:"\292B";
+  color: red;
+  border: 1px solid red;
+}
+
+.to-do-bottom ul li::after{
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+  margin-left: 10px;
+
+}
+
+.to-do-bottom ul li.editorial::after{
+  content: " editorial";
+  background-color: blueviolet;
+}
+
+.to-do-bottom ul li.q1-goals::after{
+  content: " Q1 Goals";
+  background-color: blueviolet;
+}
+
+.to-do-bottom ul li.recruiting::after{
+  content: " Recruiting";
+  background-color: blueviolet;
+}
+
+.to-do-bottom ul li.mobile::after{
+  content: " Mobile";
+  background-color: blueviolet;
+}
+
+.to-do-bottom ul li.website::after{
+  content: " Website";
+  background-color: blueviolet;
+}
+
+.to-do-bottom ul li.sales::after{
+  content: " sales";
+  background-color: blueviolet;
+}
 
 .bg-blue{
   background-color: aquamarine;
