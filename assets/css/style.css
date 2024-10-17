@@ -6,8 +6,72 @@
 
 body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: red;
+}
+
+header{
+  background-color:blue;
 }
 
 h1{
   display: inline-block;
+}
+
+header img,
+header h1{
+  vertical-align: middle;
+}
+
+main{
+  background-color: red;
+}
+
+button{
+  border-radius: 5px;
+  padding:5px;
+  border: 0;
+  text-transform: capitalize;
+}
+
+ul{
+  list-style: none;
+}
+
+ul li h3{
+  text-transform: capitalize;
+}
+
+.container{
+  margin:40px auto;
+  width: 70%;
+}
+
+.to-do{
+  background-color: brown;
+  border-radius: 10px;
+
+}
+
+.to-do-top{
+  border-bottom: 1px solid black;
+  padding: 15px;
+}
+
+.to-do-bottom{
+  padding: 15px;
+
+}
+
+.to-do-bottom ul li h3::before{
+  content: "\25BE";
+
+}
+
+
+.bg-blue{
+  background-color: aquamarine;
+}
+
+.text-white{
+  color: white;
 }
