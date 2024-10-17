@@ -6,11 +6,11 @@
 
 body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: red;
+  background-color: #f6f8fa;
 }
 
 header{
-  background-color:blue;
+  background-color:white;
 }
 
 h1{
@@ -22,8 +22,15 @@ header h1{
   vertical-align: middle;
 }
 
+header img{
+  padding: 10px 1px 10px 10px;
+}
+header h1{
+  font-size: 3rem;
+}
+
 main{
-  background-color: red;
+  background-color: #f6f8fa;
 }
 
 button{
@@ -41,19 +48,26 @@ ul li h3{
   text-transform: capitalize;
 }
 
+.bord{
+  border: 0;
+}
+
+.no-bord{
+  border: 1px solid #bdbebe;
+}
 .container{
   margin:40px auto;
   width: 70%;
 }
 
 .to-do{
-  background-color: brown;
+  background-color: white;
   border-radius: 10px;
 
 }
 
 .to-do-top{
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #f6f8fa;
   padding: 15px;
 }
 
@@ -105,39 +119,47 @@ ul li h3{
 }
 
 .to-do-bottom ul li.editorial::after{
-  content: " editorial";
-  background-color: blueviolet;
+  content: " Editorial";
+  background-color: #47aae0;
 }
 
 .to-do-bottom ul li.q1-goals::after{
   content: " Q1 Goals";
-  background-color: blueviolet;
+  background-color: #9a74de ;
 }
 
 .to-do-bottom ul li.recruiting::after{
   content: " Recruiting";
-  background-color: blueviolet;
+  background-color: #5ec5a9;
 }
 
 .to-do-bottom ul li.mobile::after{
   content: " Mobile";
-  background-color: blueviolet;
+  background-color: #f5a034;
 }
 
 .to-do-bottom ul li.website::after{
   content: " Website";
-  background-color: blueviolet;
+  background-color: #da63a5;
 }
 
 .to-do-bottom ul li.sales::after{
-  content: " sales";
-  background-color: blueviolet;
+  content: " Sales";
+  background-color: #abc524;
 }
 
 .bg-blue{
-  background-color: aquamarine;
+  background-color: #49acf0;
 }
 
 .text-white{
   color: white;
+}
+
+.bg-white{
+  background-color: white;
+}
+
+.text-gray{
+  color: #bdbebe;
 }
